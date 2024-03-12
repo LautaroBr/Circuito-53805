@@ -1,0 +1,280 @@
+/*!----Reset----!*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    font-family: "Black Ops One", system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/*!---HEADER---*/      
+
+header{
+    background-color: rgb(255, 102, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+
+h1{
+    color: rgb(65, 63, 63);
+    background-color: rgb(255, 102, 0);
+    text-align: right;
+    font-size: 100px;
+}
+
+.navegador{
+    background-color: rgba(128, 128, 128, 0.219);
+    text-align: end;
+    margin-left: 20px;
+    text-decoration: none;
+    .listaItem{
+        color: rgba(128, 128, 128, 0.219);
+        display: inline;
+        border: 1px solid black;  
+    }
+    .listaLink{
+        color: rgba(128, 128, 128, 0.219);
+        list-style: none; 
+    }
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/*!--MAIN---!*/
+
+main{
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+p{
+    color: white;
+}
+
+/*---MAIN INDEX---!*/
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/img/aluminio-compuesto/alpolic-market.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#textoHero{
+    text-align: center;
+    font-weight: bolder;   
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+#textoHero h2{
+    font-size: 64px;
+    color: whitesmoke;
+}
+
+#textoHero p{
+    font-size: 32px;
+}
+
+.mainNosotrosIndex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .parrafoNos{
+        text-align: justify;
+        margin: 5%;
+        padding: 5%;
+    }
+    .linkNosotros{
+        color: rgb(128, 128, 128); ;
+        background-color: white;
+        margin-top: 100%;
+    }
+}
+
+/*---main nosotros--*/
+
+.mainNosotros{
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloNosotros{
+    color: rgba(0, 0, 0, 0.534);
+    background-color: aliceblue;
+    margin-bottom: 5%;
+}
+
+.parrafosNos{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-bottom: 5%;
+    margin bottom: 10%;
+    
+}
+
+
+/*--main materiales--*/
+
+.mainMateriales{
+    .encabezadoMateriales{
+        height: 50vh;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 25px;
+        h2{
+            padding-bottom: 50px;
+        }
+        p{
+            padding: 25px;
+        }
+    }
+    .seccionTarjetas{
+    .contenedorTarjetas{
+        background-color: rgba(0, 0, 0, 0.733);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .tarjetas{
+            height: 300px;
+            width: 300px;background-color: white;
+            border: 1px solid black;
+            padding: 10px 20px 30px 40px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            padding-left: 15px;
+            padding-right: 20px;
+            margin: 20px;
+            .imgTarjeta{
+                width: 100%;
+                height: 90%;
+                object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+.descripcionMateriales{
+    background-color: rgba(255, 102, 0, 0.808);
+    height: 100vh;
+    color: rgb(109, 109, 109);
+    .grillaMateriales{
+        font-size: 1.5rem;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20vh 20vh 20vh 20vh 20vh;    
+        grid-template-areas:"aluminio" 
+                            "platten" 
+                            "acero" 
+                            "acrilico" 
+                            "vinilo";
+    }
+        .aluminio{
+            padding-top: 15px;
+            grid-area: aluminio;
+        }
+        .platten{
+            padding-top: 15px;
+            grid-area: platten;
+        }
+        .acero{
+            padding-top: 15px;
+            grid-area: acero;
+        }
+        .acrilico{
+            padding-top: 15px;
+            grid-area: acrilico;
+        }
+        .vinilo{
+            padding-top: 15px;
+            grid-area: vinilo;
+        }
+}    
+
+/*!-----MAIN TRABAJOS-------!*/
+
+.mainTrabajos{
+    background-color: rgba(65, 63, 63, 0.342);
+}
+.grilla{
+    padding: 15px;
+    height: auto;
+    width: auto;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    ;
+}
+.box{
+    border: 1px solid black;
+ }
+.uno{
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    text-align: center;
+    object-fit: contain;
+    height: 25vh;
+    width: 25vh;
+}
+.dos{ 
+    height: 25vh;
+    width: 25vh;
+}
+.tres {
+    height: 25vh;
+    object-fit: fill;
+    text-align: center;
+}
+.cuatro {
+    height: 25vh;
+}
+
+/*!---FOOTER---!*/
+
+footer{
+    background-color: rgb(223, 101, 21); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapaContacto{
+    width: 100%;
+}
+.contactoDos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    .infoContacto{
+        width: 50%;
+        color: whitesmoke(29, 27, 27);
+        display: flex;
+        flex-direction: column;  
+        .redesSociales{
+        img{    
+            width: 32px;
+            height: 32px;
+          }
+    }
+    }
+    .formularioContacto form input{
+        display: flex;
+        align-items: center;   
+        width: 50%;
+    }
+}

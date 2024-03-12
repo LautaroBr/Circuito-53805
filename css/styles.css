@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Black Ops One", system-ui;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #08090a;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (min-width:769px) {
+    
+    header{
+        background-color:rgb(255, 105, 5);
+        align-items: start;
+        height: 20%;
+    }   
+    
+    .navbar-nav{
+        background-color:rgba(255, 105, 5, 0.521);
+        justify-content: space-around;
+    }
+    .colorNav{
+        background-color:rgb(255, 105, 5);
+    }
+    .bgColorNav{
+        background-color:rgb(255, 102, 5);
+    
+    }
+    .bgColorDropdown{
+        background-color: rgb(247, 220, 202);
+    }
+    
+    .header h1{
+        padding-left: 0;
+        color: rgb(26, 26, 26);
+        font-size: 100px;
+    }
+    
+    .hero{
+        background-image: url(../assets/img/aluminio-compuesto/alpolic-market.webp);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        .heroH2{
+            text-align: start;
+            color: #ffffffe0;
+            font-size: 50px;
+        } 
+        .heroH3{
+            text-align: start;
+            color: #ffffffe0;
+        }
+    }    
+    .mainNosotrosIndex{
+        height: 100vh;
+        background-color: rgb(16, 17, 17);
+        .pt50{
+            padding: 8rem;
+            font-size: 20px;
+            color: #e4e4e4e0;
+        }
+        .linkNosotros{
+            color: #7e7e7ee0;
+            font-size: 20px;
+            padding-bottom: auto;
+            text-decoration: none;
+        }
+        .imgNosotros{
+            width: 450px;
+            height: 700px;
+            padding-top: 10rem;
+        }
+    }
+    
+    .mainNosImg{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../assets/img/trabajos/back-img.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        .h2Nosotros{
+            text-align: end;
+            color: #161616;
+            font-size: 55px;
+            padding-right: 25px;
+        }
+        .h3Nosotros{
+            text-align: end;
+            color: #161616;
+            font-size: 45px;
+            padding-right: 25px;
+        }
+        .h4Nosotros{
+            text-align: end;
+            color: rgba(62, 98, 134, 0.678);
+            font-weight: 900px;
+            font-size: 35px;
+            padding-right: 25px;
+        }
+    }
+    
+    .linkConocenos{
+        text-decoration: none;
+    
+    }
+    
+    .textNos{
+        background-color: rgba(112, 128, 144, 0.678);
+        padding-top: 10rem;
+        padding-bottom: 25rem;
+        .h3Nos2{
+            font-size:65px;
+            color: #161616;
+            padding-left: 62.5px;
+        }
+        .parrofosNos{
+            color: #161616;
+            padding: 62.5px;
+            font-size: 31.25;
+            .linkNosotros{
+                color: #e4e4e4e0;
+                font-size: 40px;
+                padding-bottom: auto;
+                text-decoration: none;
+            }
+        }
+        .pnUno{
+            padding-top: 62.5px;
+            padding-left: 62.5px;
+            padding-right: 62.5px;
+            padding-bottom: 125px;
+            font-size: 31.25px;
+            text-align: end;
+            background-color:  rgba(62, 98, 134, 0.678);
+        }
+        .pnDos{
+            padding-top: 350px;
+            padding-left: 62.5px;
+            padding-right: 62.5px;
+            padding-bottom: 250px;
+            font-size: 31.25px;
+            text-align: start;
+            background-color: rgba(62, 98, 134, 0.678);
+        }
+        .pnTres{
+            padding-top: 350px;
+            padding-left: 62.5px;
+            padding-right: 62.5px;
+            padding-bottom: 125px;
+            font-size: 31.25px;
+            text-align: end;
+            background-color: rgba(62, 98, 134, 0.678);
+        }
+        }
+    .divCarr{
+        align-items: center;
+        padding-top: 75px;
+        background-color: #08090a;
+        height: 120vh;
+    }
+    .mainMateriales{
+        background-color: rgb(27, 27, 27);
+        .encabezadoMateriales{
+            padding-left: 100px;
+            padding-top: 50px;
+            height: 100vh;
+            background-image: url(../assets/img/aluminio-compuesto/router.webp);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            .h1Mat{
+                text-align: center;
+                font-size: 100px;
+                color: white;
+            }
+            .h2Mat{
+                text-decoration: none;
+                text-align: center;
+                color: snow;
+            }
+            .pMat1{
+                text-align: center;
+                padding: 100px;
+                color: white;
+            }
+            .pMat2{
+                text-align: center;
+                padding: 100px;
+                color: white;
+            }
+        }
+    }
+    .tarjetasMateriales{
+        padding-top: 100px;
+        justify-content: space-around;
+        padding-bottom: 250px;
+        box-sizing: border-box;
+        border: rgba(0, 0, 0, 0.493) solid 1px;
+        .card-img
+        .btn-color{
+            color: rgba(62, 98, 134, 0.678);
+        }
+    }
+        
+    .materiales{
+        background-color: #08090a;
+        .h2Servicio{
+        color: white;
+        }
+    }    
+    footer{
+        background-color: rgb(223, 101, 21); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mapaContacto{
+        width: 100%;
+    }
+    .contactoDos{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        .infoContacto{
+            width: 50%;
+            color: whitesmoke(29, 27, 27);
+            display: flex;
+            flex-direction: column;  
+            .redesSociales{
+            img{    
+                width: 32px;
+                height: 32px;
+              }
+        }
+        }
+        .formularioContacto form input{
+            display: flex;
+            align-items: center;   
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    header{
+        background-color:rgb(255, 105, 5);
+        align-items: start;
+        height: 20%;
+    }       
+    .navbar-nav{
+        background-color:rgba(255, 105, 5, 0.521);
+        justify-content: space-around;
+    }
+    .colorNav{
+        background-color:rgb(255, 105, 5);
+    }
+    .bgColorNav{
+        background-color:rgb(255, 102, 5);
+    
+    }
+    .bgColorDropdown{
+        background-color: rgb(247, 220, 202);
+    }
+    .header h1{
+        text-align: center;
+    }
+    .hero{
+        background-image: url(../assets/img/trabajos/penthohouse-ciudad.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 50vh;
+        .heroH2{
+            align-items: center;
+            text-align: center;
+        }
+        .heroH3{
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .mainNosotrosIndex{
+        height: auto;
+        background-color: rgb(16, 17, 17);
+        width: 100%;
+        .pt50{
+            padding: 2rem;
+            font-size: 15px;
+            color: #e4e4e4e0;
+        }
+        .linkNosotros{
+            color: #7e7e7ee0;
+            font-size: 20px;
+            padding-bottom: 0.1rem;
+            text-decoration: none;
+        }
+        .imgNosotros{
+            width: auto;
+            height: auto;
+            padding-top: 1rem;
+        }
+    }
+
+    .mainNosImg{
+        height: 70vh;
+        width: 100%;
+        background-image: url(../assets/img/trabajos/back-img.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        .textNos{
+        background-color: rgba(112, 128, 144, 0.678);
+        padding-top: 10rem;
+        padding-bottom: 25rem;
+        .h3Nos2{
+            font-size:65px;
+            color: #161616;
+            padding-left: 62.5px;
+        }
+        .parrofosNos{
+            color: #161616;
+            padding: 62.5px;
+            font-size: 31.25;
+            .linkNosotros{
+                color: #e4e4e4e0;
+                font-size: 40px;
+                padding-bottom: auto;
+                text-decoration: none;
+            }
+        }
+        .pnUno{
+            padding-top: 62.5px;
+            padding-left: 62.5px;
+            padding-right: 62.5px;
+            padding-bottom: 125px;
+            font-size: 31.25px;
+            text-align: end;
+            background-color:  rgba(62, 98, 134, 0.678);
+        }
+        .pnDos{
+            padding-top: 350px;
+            padding-left: 62.5px;
+            padding-right: 62.5px;
+            padding-bottom: 250px;
+            font-size: 31.25px;
+            text-align: start;
+            background-color: rgba(62, 98, 134, 0.678);
+        }
+        .pnTres{
+            padding-top: 350px;
+            padding-left: 62.5px;
+            padding-right: 62.5px;
+            padding-bottom: 125px;
+            font-size: 31.25px;
+            text-align: end;
+            background-color: rgba(62, 98, 134, 0.678);
+        }
+        }
+    footer{
+        background-color: rgb(223, 101, 21); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mapaContacto{
+        width: 100%;
+    }
+    .contactoDos{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        .infoContacto{
+            width: 50%;
+            color: whitesmoke(29, 27, 27);
+            display: flex;
+            flex-direction: column;  
+            .redesSociales{
+                list-style: none;
+                img{    
+                width: 24px;
+                height: 24px;
+              }
+        }
+        }
+        .formularioContacto form input{
+            display: flex;
+            align-items: center;   
+            width: 50%;
+        }
+    }
+}
